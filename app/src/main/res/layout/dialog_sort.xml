@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Spinner
+        android:id="@+id/spinselection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/radioSortByCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sort by Category" />
+    <RadioButton
+        android:id="@+id/radioSortALL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALL" />
+    <Button
+        android:id="@+id/btnSort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sort" />
+</LinearLayout>
